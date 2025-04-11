@@ -26,6 +26,7 @@ const SomeNumbers = () => {
       <Box sx={{ marginTop: "48px" }}>
         <Grid container spacing={2} display="flex" justifyContent="center">
           {stats.map((stat, index) => (
+            // @ts-ignore
             <Grid item xs={12} sm={6} md={3} key={index}>
               <Box
                 sx={{
