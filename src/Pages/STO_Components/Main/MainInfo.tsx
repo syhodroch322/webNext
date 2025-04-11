@@ -5,7 +5,7 @@ import {
 } from "@/Pages/SecondPageComponents/const";
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
-import { autoLogos, stoImg } from "../const";
+import { stoImg } from "../const";
 import Image from "next/image";
 
 const MainInfo = () => {

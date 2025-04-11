@@ -1,8 +1,7 @@
 "use client";
-import { Box, Button, Grid, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import { vidixTwo } from "../const";
-import MyButton from "@/components/MyButton";
 import Image from "next/image";
 
 const SomeVideos = () => {

@@ -1,6 +1,5 @@
 import { HeroImageBlock } from "@/components/Hero/const/HeroImageBlock";
 import FAQ from "@/Pages/HomeComponents/FAQ/FAQ";
-import RandomViedeos from "@/Pages/HomeComponents/RandomVideos/RandomViedeos";
 import AboutMain from "@/Pages/SecondPageComponents/AboutMain/AboutMain";
 import MainGallery from "@/Pages/SecondPageComponents/GalleryMain/MainGallery";
 import SomeVideos from "@/Pages/SecondPageComponents/SomeVideos/SomeVideos";
