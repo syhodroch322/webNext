@@ -164,7 +164,6 @@ const MainInfo = () => {
           ))}
         </Box>
 
-        {/* Контакти */}
         <Box
           sx={{
             backgroundColor: "#F5F5F5",
@@ -202,7 +201,6 @@ const MainInfo = () => {
           </Button>
         </Box>
 
-        {/* Оренда техніки */}
         <Box
           sx={{
             backgroundColor: "#272E36",

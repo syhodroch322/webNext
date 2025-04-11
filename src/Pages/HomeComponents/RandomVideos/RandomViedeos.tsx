@@ -1,5 +1,5 @@
 "use client";
-import { Box, Button, Grid, Typography } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 import { vidix } from "./const";
 import MyButton from "@/components/MyButton";
