@@ -1,8 +1,10 @@
 "use client";
-import { Box, Grid, Typography } from "@mui/material";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 import React from "react";
 import { vidix } from "./const";
 import MyButton from "@/components/MyButton";
+import Grid from "@mui/material/Grid";
 
 const RandomViedeos = () => {
   return (
@@ -31,7 +33,13 @@ const RandomViedeos = () => {
         sx={{ marginTop: "48px", display: "flex", justifyContent: "center" }}
       >
         {vidix.map((item, index) => (
-          <Grid item xs={12} sm={6} key={index}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            key={index}
+            component={"div" as React.ElementType}
+          >
             <Box
               sx={{
                 border: "2px solid #FBB216",
