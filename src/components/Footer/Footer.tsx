@@ -17,7 +17,7 @@ const Footer = () => {
       }}
     >
       <Grid container spacing={4}>
-        <Grid item xs={12} md={3.5}>
+        <Grid item xs={12} md={3.5} component={"div" as React.ElementType}>
           <Box
             sx={{
               display: "flex",
@@ -75,7 +75,13 @@ const Footer = () => {
           </Box>
         </Grid>
 
-        <Grid item xs={6} sm={6} md={2.5}>
+        <Grid
+          item
+          xs={6}
+          sm={6}
+          md={2.5}
+          component={"div" as React.ElementType}
+        >
           <Box sx={{ display: "flex", flexDirection: "column", gap: "12px" }}>
             <Typography sx={{ color: "#FFFDFD", fontSize: "18px" }}>
               Послуги
@@ -98,7 +104,7 @@ const Footer = () => {
           </Box>
         </Grid>
 
-        <Grid item xs={6} sm={6} md={3}>
+        <Grid item xs={6} sm={6} md={3} component={"div" as React.ElementType}>
           <Box
             sx={{
               gap: "12px",
@@ -124,7 +130,7 @@ const Footer = () => {
           </Box>
         </Grid>
 
-        <Grid item xs={12} md={3}>
+        <Grid item xs={12} md={3} component={"div" as React.ElementType}>
           <Box sx={{ display: "flex", flexDirection: "column", gap: "16px" }}>
             <Typography sx={{ color: "#FFFDFD", fontSize: "18px" }}>
               Контакти
